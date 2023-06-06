@@ -1,0 +1,10 @@
+:root{
+    --main-color:#B58D47;
+    --background-color:#F4EBD2;
+    --sub-color:#D5ACB7;
+    --font-color:#FFFFFF;
+}
+
+html{
+    scroll-behavior:smooth;
+}

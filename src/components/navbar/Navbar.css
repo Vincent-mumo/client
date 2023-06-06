@@ -1,0 +1,220 @@
+.navbar{
+    width: 100%;
+    background-color: var(--main-color);
+    height: 60px;
+    position: sticky;
+    top: 0;
+    z-index: 999999;
+    align-items: center;
+}
+
+.navContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 14px 20px;
+}
+
+.navLeft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.logo{
+    color: var(--font-color);
+    font-size: 24px;
+    font-weight: 450;
+}
+
+.navRight{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.shopping{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.cartTotal{
+    position: absolute;
+    color: var(--font-color);
+    border-radius: 50%;
+    top: 0;
+    right: 15px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.orders{
+    position: relative;
+    color: var(--font-color);
+    font-weight: 500;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.order{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--font-color);
+}
+
+.numberOfOrders{
+    right: 15px;
+}
+
+.credentials{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.credentialButton{
+    padding: 5px;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--main-color);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.user{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+
+.username{
+    font-weight: 400;
+    font-size: 17px;
+    color: var(--font-color);
+}
+
+.navImage{
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.box{
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.navImageLogo{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.navImageCart{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.mobile{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.ordersNumber{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    top:3px;
+    padding: 2px;
+}
+
+@media (max-width:450px) {
+    .navbar{
+        height: 50px;
+     
+    }
+
+    .navContainer{
+        margin: 10px 5px;
+    }
+
+    .logo{
+        font-size: 14px;
+    }
+
+    .navImage{
+        width: 30px;
+        height: 30px;
+    }
+    
+
+    .navRight{
+        gap: 3px;
+    }
+
+    .navImageCart{
+        height: 25px;
+        width: 25px;
+        margin-right: 15px;
+    }
+
+    .credentials{
+        display: flex;
+        align-items: center;
+        gap: 3px;
+    }
+
+    .credentialButton{
+        padding: 3px;
+        border: none;
+        font-size: 11px;
+        font-weight: 400;
+        color: var(--main-color);
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .mobile{
+        margin-right: 10px;
+    }
+
+    .user{
+        display: flex;
+        align-items: center;
+        gap: 3px;
+     }
+     
+     .username{
+         font-weight: 400;
+         font-size: 13px;
+         color: var(--font-color);
+     }
+     
+     .navImage{
+         cursor: pointer;
+         width: 28px;
+         height: 28px;
+         border-radius: 50%;
+         object-fit: cover;
+     }
+    
+}

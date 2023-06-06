@@ -1,0 +1,184 @@
+.footer{
+    height: 330px;
+    width: 100vw;
+    background-color: var(--main-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.footerContainer{
+    align-items:flex-start;
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.fTitle{
+    font-weight: 400;
+    font-size: 21px;
+    color: var(--font-color);
+}
+
+.brands{
+    gap: 3px;
+}
+
+.brand{
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--font-color);
+}
+
+.fCenter{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 7px;
+}
+
+.paymentMethods{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.paymentMethod{
+    display: flex;
+    align-items: center;
+}
+
+.methodName{
+    font-weight: 600;
+    color: var(--font-color);
+}
+
+.methodImage{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.fRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.socialItems{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.socialItem{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+
+.socialImage{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+.socialName{
+    font-weight: 400;
+    color: var(--font-color);
+}
+
+.copyright{
+    align-self: center;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+
+.footerDesc{
+    font-size: 10px;
+}
+
+.footerTitle{
+    font-size: 13px;
+}
+
+.year{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+@media (max-width:450px) {
+    .footer{
+        height: max-content;
+        width: 100%;
+        background-color: var(--main-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .footerContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .fTitle{
+        font-weight: 400;
+        font-size: 17px;
+        color: var(--font-color);
+    }
+
+    .brand{
+        font-weight: 400;
+        font-size: 12px;
+        color: var(--font-color);
+    }
+
+    .paymentMethods{
+        gap: 5px;
+    }
+
+    .methodName{
+        font-weight: 400;
+        color: var(--font-color);
+    }
+
+    .methodImage{
+        width: 25px;
+        height: 25px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    .socialImage{
+        width: 25px;
+        height: 25px;
+        object-fit: cover;
+    }
+    
+    .socialName{
+        font-weight: 400;
+        color: var(--font-color);
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,14 @@
+.productsSlider{
+    margin-bottom: 20px;
+}
+
+.sliderImage{
+    height: 300px;
+}
+
+@media (max-width:450px) {
+    .sliderImage{
+        height: 200px;
+        object-fit: cover;
+    }
+}

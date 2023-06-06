@@ -1,0 +1,160 @@
+.register{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background: url("https://img.freepik.com/premium-photo/autumn-fashion-lady-clothes-set-minimal-vintage_645374-1572.jpg?w=2000");
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.registerContainer{
+    background: url("https://images.pexels.com/photos/2112868/pexels-photo-2112868.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    height: 450px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    margin-top: 5px;
+    justify-content: center;
+    gap: 4px;
+}
+
+label{
+    font-weight: 500;
+    color: var(--main-color);  
+}
+
+input{
+    width: 300px;
+    padding: 3px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+.uploader{
+    font-size: 14px;
+    color:var(--main-color);
+    cursor: pointer;
+    
+}
+
+.profilePicture{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    align-self: center;
+    margin-right: 150px;
+    border: 1px solid var(--font-color);
+}
+
+.registerButton{
+    margin-top: 10px;
+    background-color: var(--main-color);
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    color: var(--font-color);
+    font-size: 15px;
+    font-weight: 500;
+    width: 300px;
+    cursor: pointer;
+}
+
+span{
+    margin-left: 25px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.logginRedirectButton{
+    margin-top: 5px;
+    background-color: var(--main-color);
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    color: var(--font-color);
+    font-size: 15px;
+    font-weight: 500;
+    width: 300px;
+    cursor: pointer;
+}
+
+@media (max-width:450px) {
+    .register{
+        height: 80%;
+        width: 100%;
+    }
+    .registerContainer{
+        height: 300px;
+        width: 260px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    form{
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+
+    label{
+        font-size: 13px;
+    }
+
+    .uploader{
+        font-size: 11px;
+        margin-left: 30px;
+        color: black;
+    }
+
+    input{
+        width: 200px;
+        padding: 5px;
+        border-radius: 5px;
+        outline: none;
+        border: none;
+        font-size: 12px;
+    }
+
+    .profilePicture{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+        align-self: center;
+        margin-right: 80px;
+        border: 1px solid var(--font-color);
+    }
+
+    .registerButton{
+        padding: 3px;
+        font-size: 13px;
+        width: 200px;
+    }
+
+    span{
+        font-size: 11px;
+    }
+
+    .logginRedirectButton{
+        padding: 3px;
+        font-size: 13px;
+        width: 200px;
+        margin-bottom: 15px;
+    }
+}

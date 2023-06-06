@@ -1,0 +1,135 @@
+.productsPage{
+    height: 65%;
+    width: 100vw;
+}
+
+.productSelect{
+    box-shadow: -1px 0px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 0px 5px 0px rgba(0,0,0,0.75);
+    background-color: var(--font-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 16px 20px 16px;
+    border-radius: 10px;
+    height: 40px;
+}
+
+.sizeSelect{
+    display: flex;
+    margin-left: 10px;
+    gap: 10px;
+}
+
+.typeSelect{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+    gap: 10px;
+}
+
+.size,.color,.price,.type{
+    color: var(--main-color);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.colorSelect{
+    display: flex;
+    gap: 10px;
+}
+
+.priceSelect{
+    display: flex;
+    margin-right: 10px;
+    gap: 10px;
+}
+
+select{
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #C7A729;
+    color: white;
+    cursor: pointer;
+}
+
+.option{
+    color: #C7A729;
+}
+
+
+
+.mobiled{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #C9D8E6;
+    padding: 5px 0px;
+}
+
+.topmen{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+
+
+
+
+
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+@media (max-width:450px) {
+   
+
+    .option{
+        font-size: 1px;
+        color: blue;
+    }
+
+    .bottom{
+        display: flex;
+        align-items: center;
+        gap: 60px;
+    }
+
+    .size,.color,.price,.type{
+        color: var(--main-color);
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    .typeSelectM{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10px;
+        gap: 3px;
+    }
+
+    .typeSelectW{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10px;
+        gap: 12px;
+        text-align: center;
+    }
+
+    .priceSelect{
+        display: flex;
+        gap: 3px;
+    }
+}
+
